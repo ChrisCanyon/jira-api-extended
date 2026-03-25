@@ -3,7 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "read-jira": "npx tsx cli/read-jira.ts",
+    "create-jira": "npx tsx cli/create-jira.ts",
+    "create-jira-json": "npx tsx cli/create-jira-json.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

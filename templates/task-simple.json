@@ -1,0 +1,8 @@
+{
+  "project": "OS",
+  "parent": "OS-14441",
+  "summary": "Update API documentation for authentication endpoints",
+  "type": "Task",
+  "description": "The authentication API endpoints need updated documentation to reflect recent changes in the OAuth implementation.",
+  "labels": ["documentation", "api"]
+}

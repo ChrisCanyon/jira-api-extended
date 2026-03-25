@@ -1,0 +1,8 @@
+{
+  "project": "OS",
+  "summary": "Critical bug affecting user login",
+  "type": "Bug",
+  "description": "Users are unable to log in when using special characters in their password. This affects approximately 15% of users based on support tickets.\n\nSteps to reproduce:\n1. Navigate to login page\n2. Enter username\n3. Enter password with special characters (e.g., @, #, $)\n4. Click login\n\nExpected: User logs in successfully\nActual: Error message 'Invalid credentials'\n\nEnvironment: Production\nBrowser: All browsers affected",
+  "labels": ["bug", "authentication", "production"],
+  "assignee": "developer@example.com"
+}

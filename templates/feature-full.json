@@ -1,0 +1,9 @@
+{
+  "project": "OS",
+  "parent": "OS-14441",
+  "summary": "Add dark mode support to settings panel",
+  "type": "Story",
+  "description": "**Summary:**\nImplement dark mode toggle in user settings that persists across sessions and affects all application pages.\n\n**Business Case:**\nUsers have requested dark mode for better viewing in low-light conditions. This is a commonly requested feature that improves accessibility and user satisfaction.\n\n**Technical Details:**\n- Add toggle component to Settings page\n- Store preference in user preferences table\n- Create CSS theme variables for dark mode\n- Update all components to respect theme setting\n- Persist selection in localStorage and database\n\n**Acceptance Criteria:**\n- [ ] User can toggle dark mode from settings\n- [ ] Dark mode applies to all pages immediately\n- [ ] Preference persists across browser sessions\n- [ ] Preference syncs across devices\n- [ ] All UI elements are readable in dark mode\n- [ ] Performance impact is minimal\n- [ ] Tests added for theme switching\n- [ ] Code review completed\n\n**Dependencies:**\n- UI component library must support theming\n- Database schema update required",
+  "labels": ["frontend", "ui", "accessibility", "user-experience"],
+  "assignee": "frontend.dev@example.com"
+}

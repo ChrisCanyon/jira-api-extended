@@ -1,0 +1,8 @@
+{
+  "project": "OS",
+  "parent": "OS-14441",
+  "summary": "Story linked to an epic",
+  "type": "Story",
+  "description": "This story is part of a larger epic and includes more details.",
+  "labels": ["backend", "api"]
+}
